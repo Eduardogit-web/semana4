@@ -32,11 +32,10 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
 // Configuración de autorización
-builder.Services.AddAuthorization(options =>
-{
-    options.AddPolicy("RequireAdminRole", policy =>
+builder.Services.AddAuthorizationBuilder()
+                                    // Configuración de autorización
+                                    .AddPolicy("RequireAdminRole", policy =>
         policy.RequireRole("Admin"));
-});
 
 // Configuración de la aplicación
 var app = builder.Build();

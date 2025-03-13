@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CentroAdopcion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71ccdbad6c72a02306ef24d80840f8ec34d6ff2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CentroAdopcion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CentroAdopcion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

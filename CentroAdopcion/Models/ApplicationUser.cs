@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CentroAdopcion.Models
 {
+   
     public class ApplicationUser : IdentityUser
     {
         [Required(ErrorMessage = "El nombre es obligatorio")]

@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CentroAdopcion.Data;
 using CentroAdopcion.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CentroAdopcion.Controllers
 {
+    [Authorize]
     public class AdopcionesController : Controller
     {
         private readonly ApplicationDbContext _context;
